@@ -5,3 +5,5 @@
 3. $ virtualenv venv
 4. $ source venv/bin/activate
 5. (venv) pip install django
+
+6. python manage.py runserver
