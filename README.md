@@ -1,9 +1,7 @@
-## Install Django, pip, and virtualenv
-
-1. $ sudo easy_install pip
-2. $ sudo pip install virtualenv
-3. $ virtualenv venv
-4. $ source venv/bin/activate
-5. (venv) pip install django
-
-6. python manage.py runserver
+## Steps to run project
+    1. $ git clone https://github.com/egarcia410/Django-Blog.git
+    2. $ cd Django-Blog
+    3. $ virtualenv venv
+    4. $ source venv/bin/activate
+    5. (venv) $ cd venv/src
+    6. (venv) $ python manage.py runserver
